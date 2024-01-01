@@ -1,7 +1,7 @@
 @echo off
 set "dir_atual=%~dp0"
 
-curl -X POST -H "Content-Type: application/json;charset=utf-8" -H "Authorization: snve072509ç$" -d "{\"usuario\": \"%USERNAME%\"}" https://pingobras-sg.glitch.me/global/database/1
+curl -X POST -H "Content-Type: application/json;charset=utf-8" -H "Authorization: snve072509&Aplication" -d "{\"usuario\": \"%USERNAME%\"}" https://pingobras-sg.glitch.me/global/database/1
 
 start "" "%dir_atual%\messages\createMessages.cmd"
 cscript "%dir_atual%\messages\messageStart.vbs"
