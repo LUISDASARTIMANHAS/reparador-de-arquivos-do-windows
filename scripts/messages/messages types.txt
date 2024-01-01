@@ -1,0 +1,17 @@
+cscript messageStart.vbs iniciar
+cscript messageError.vbs error
+cscript messageAlert.vbs alerta
+cscript messageInfo.vbs informações
+cscript messageQuestion.vbs pergunta
+
+vbCritical: Ícone de erro (X vermelho em um círculo branco).
+vbQuestion: Ícone de interrogação (ponto de interrogação).
+vbInformation: Ícone de informação (i minúsculo em um círculo).
+vbExclamation: Ícone de exclamação (triângulo amarelo com ponto de exclamação).
+
+vbOKOnly: Mostra apenas o botão "OK".
+vbOKCancel: Mostra os botões "OK" e "Cancelar".
+vbAbortRetryIgnore: Mostra os botões "Abortar", "Repetir" e "Ignorar".
+vbYesNoCancel: Mostra os botões "Sim," "Não" e "Cancelar".
+vbYesNo: Mostra os botões "Sim" e "Não".
+vbRetryCancel: Mostra os botões "Repetir" e "Cancelar".
