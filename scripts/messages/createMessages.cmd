@@ -7,4 +7,5 @@ echo MsgBox "Info: ", vbInformation + vbOKOnly, "Windows Information" > messageI
 echo MsgBox "Deseja continuar?", vbQuestion + vbYesNo, "Windows Question" > messageQuestion.vbs
 
 echo MsgBox "Info: Reparação dos arquivos concluida!", vbInformation + vbOKOnly, "Windows Information" > messageConcluido.vbs
+echo MsgBox "Aviso! Vamos Reiniciar seu sitema para aplicar as configuracoes", vbExclamation + vbOKOnly, "Windows Alert" > messageReiniciar.vbs
 exit
